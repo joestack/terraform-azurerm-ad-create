@@ -3,5 +3,5 @@
 ####################################################################################################
 
 output "ad_public_ip" {
-  value "${modules.active-directory.azure_public_ip}"
-  }
+  value = "${azurerm_public_ip.dc1-external.ip_address}"
+}
