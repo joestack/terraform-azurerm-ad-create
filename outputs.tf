@@ -3,5 +3,5 @@
 ####################################################################################################
 
 output "ad_public_ip" {
-  value "${modules.active-directory.ad_public_ip}"
+  value "${modules.active-directory.azure_public_ip}"
   }
